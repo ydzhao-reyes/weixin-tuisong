@@ -26,6 +26,10 @@ public class JiNianRi {
      * 生日
      */
     static String shengRi = "2023-03-02";
+    /**
+     * 农历生日
+     */
+    static String nongLiShengRi = "2023-03-02";
 
     private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
@@ -78,9 +82,13 @@ public class JiNianRi {
         return after(shengRi);
     }
 
-    public static void main(String[] args) {
-        System.out.println(getJieHun());
+    public static int getNongLiShengRi() throws Exception {
+        return after(CalendarUtil.lunarToSolar(nongLiShengRi, false));
     }
 
+    public static void main(String[] args) throws Exception {
+        System.out.println(getJieHun());
+        System.out.println(getNongLiShengRi());
+    }
 
 }
