@@ -27,3 +27,7 @@ http://t.csdn.cn/gzC6Z
 百度天气开发者的ak和所在地区的编码
 
 ![image](https://user-images.githubusercontent.com/42952460/182985393-ff0db255-e5fd-4356-b0b6-59e5ad85687f.png)
+
+彩虹屁api的key
+
+![image](https://user-images.githubusercontent.com/42952460/182987189-c3484b2a-4f10-40d7-a709-e9d88220214f.png)
